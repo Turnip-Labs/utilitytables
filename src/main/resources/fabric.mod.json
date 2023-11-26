@@ -1,28 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
-  "version": "${version}",
+  "id": "utilitytables",
+  "version": "1.0.0",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Utility Tables",
+  "description": "Bring in new workbenches and tables for helpful utilities.",
   "authors": [
-    "Turnip Labs"
+    "LukeisStuff"
   ],
-  "contact": {
-    "homepage": "",
-    "sources": ""
-  },
+	"icon": "icon.png",
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
 
   "license": "CC0-1.0",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-        "turniplabs.examplemod.ExampleMod"
+			"luke.utilitytables.UtilityTables"
     ]
   },
   "mixins": [
-      "examplemod.mixins.json"
+    "utilitytables.mixins.json"
   ],
 
   "depends": {
